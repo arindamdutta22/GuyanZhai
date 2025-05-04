@@ -121,6 +121,16 @@ const Collection = () => {
     setFilteredArtifacts(results);
   }, [searchTerm, selectedOrigin, selectedCategory]);
 
+  // Helper function to safely get translations
+  const getTranslation = (key: string) => {
+    try {
+      return t(key) || key;
+    } catch (error) {
+      console.warn(`Translation not found for key: ${key}`);
+      return key;
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -129,9 +139,9 @@ const Collection = () => {
         {/* Collection Header - changed background color */}
         <section className="py-12 bg-tibet-blue/20">
           <div className="container px-6 md:px-8">
-            <h1 className="text-3xl md:text-5xl font-display font-medium mb-4 text-tibet-amber">{t('collection_title')}</h1>
+            <h1 className="text-3xl md:text-5xl font-display font-medium mb-4 text-tibet-amber">{getTranslation('collection_title')}</h1>
             <p className="text-foreground/80 max-w-2xl">
-              {t('collection_description')}
+              {getTranslation('collection_description')}
             </p>
           </div>
         </section>
@@ -144,7 +154,7 @@ const Collection = () => {
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-foreground/50 h-5 w-5" />
                 <input
                   type="text"
-                  placeholder={t('search_artifacts')}
+                  placeholder={getTranslation('search_artifacts')}
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="pl-10 pr-4 py-2 w-full border border-tibet-gold/30 rounded-md bg-tibet-blue/5 focus:outline-none focus:ring-2 focus:ring-tibet-gold/30 text-tibet-blue"
@@ -156,7 +166,7 @@ const Collection = () => {
                 className="flex items-center gap-2 text-sm font-medium text-foreground md:hidden"
               >
                 <Filter className="h-4 w-4" />
-                {showFilters ? t('hide_filters') : t('show_filters')}
+                {showFilters ? getTranslation('hide_filters') : getTranslation('show_filters')}
               </button>
               
               <div className={`flex flex-col md:flex-row gap-4 w-full md:w-auto ${showFilters ? 'block' : 'hidden md:flex'}`}>
@@ -178,7 +188,9 @@ const Collection = () => {
                   aria-label="Filter by category"
                 >
                   {categories.map(category => (
-                    <option key={category} value={category}>{t(category.toLowerCase().replace(/ /g, '_'))}</option>
+                    <option key={category} value={category}>
+                      {getTranslation(category.toLowerCase().replace(/ /g, '_'))}
+                    </option>
                   ))}
                 </select>
               </div>
@@ -205,8 +217,8 @@ const Collection = () => {
               </div>
             ) : (
               <div className="text-center py-16">
-                <h3 className="text-xl font-medium mb-2">{t('no_artifacts')}</h3>
-                <p className="text-foreground/70">{t('adjust_search')}</p>
+                <h3 className="text-xl font-medium mb-2">{getTranslation('no_artifacts')}</h3>
+                <p className="text-foreground/70">{getTranslation('adjust_search')}</p>
               </div>
             )}
           </div>
