@@ -15,15 +15,21 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
+    outDir: "dist",
+    assetsDir: "assets",
     rollupOptions: {
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom', 'react-router-dom'],
         },
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]'
       },
     },
   },
   optimizeDeps: {
     include: ['react', 'react-dom', 'react-router-dom'],
   },
+  base: '/',
 }));

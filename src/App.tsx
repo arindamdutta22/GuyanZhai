@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import Index from "./pages/Index";
 import Collection from "./pages/Collection";
@@ -12,7 +12,14 @@ import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 import { ErrorBoundary } from "react-error-boundary";
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      retry: 1,
+      refetchOnWindowFocus: false,
+    },
+  },
+});
 
 const ErrorFallback = ({ error }: { error: Error }) => (
   <div className="min-h-screen flex items-center justify-center p-4">
@@ -20,7 +27,7 @@ const ErrorFallback = ({ error }: { error: Error }) => (
       <h1 className="text-2xl font-bold mb-4">Something went wrong</h1>
       <pre className="text-red-500 mb-4">{error.message}</pre>
       <button
-        className="px-4 py-2 bg-blue-500 text-white rounded"
+        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
         onClick={() => window.location.reload()}
       >
         Try again
@@ -43,7 +50,7 @@ const App = () => (
               <Route path="/artifact/:id" element={<ArtifactDetail />} />
               <Route path="/about" element={<About />} />
               <Route path="/terms" element={<Terms />} />
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="/home" element={<Navigate to="/" replace />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
