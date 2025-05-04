@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -199,63 +198,6 @@ const About = () => {
                 <p className="text-foreground/70 mx-auto max-w-xs">
                   {t('coordinator_bio')}
                 </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        {/* Testimonials */}
-        <section className="py-20 bg-tibet-blue text-white">
-          <div className="container px-6 md:px-8">
-            <div className="text-center max-w-2xl mx-auto mb-16">
-              <span className="inline-block px-3 py-1 mb-3 bg-white/20 text-white text-xs uppercase tracking-wider rounded-full">
-                Testimonials
-              </span>
-              <h2 className="text-3xl md:text-4xl font-display font-medium mb-6 text-white">
-                What Experts Say
-              </h2>
-              <p className="text-white/80">
-                Our work has been recognized by leading scholars, museums, and cultural institutions around the world.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
-                <p className="text-white/90 italic mb-6">
-                  "Tibetan Treasures has set the gold standard for ethical artifact sourcing and cultural education. Their attention to authenticity and context is unmatched in the field."
-                </p>
-                <div className="flex items-center">
-                  <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
-                    <img 
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" 
-                      alt="Dr. Robert Miller" 
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Dr. Robert Miller</h4>
-                    <p className="text-white/70 text-sm">Curator, Asian Art Museum</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
-                <p className="text-white/90 italic mb-6">
-                  "What sets this collection apart is not just the quality of the artifacts, but the depth of research and cultural context provided with each piece. A true resource for scholars and collectors alike."
-                </p>
-                <div className="flex items-center">
-                  <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
-                    <img 
-                      src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?auto=format&fit=crop&w=100&q=80" 
-                      alt="Prof. Amara Singh" 
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Prof. Amara Singh</h4>
-                    <p className="text-white/70 text-sm">Institute of Religious Studies</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

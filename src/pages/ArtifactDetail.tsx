@@ -300,7 +300,7 @@ const ArtifactDetail = () => {
                       <Phone className="w-5 h-5 text-tibet-amber mt-0.5" />
                       <div>
                         <p className="font-medium">{t('phone')}</p>
-                        <p className="text-foreground/80">+886 2 3345 6789</p>
+                        <p className="text-foreground/80">+886-226261359</p>
                       </div>
                     </div>
                     
@@ -308,8 +308,8 @@ const ArtifactDetail = () => {
                       <Mail className="w-5 h-5 text-tibet-amber mt-0.5" />
                       <div>
                         <p className="font-medium">{t('email')}</p>
-                        <a href="mailto:contact@tibetantreasures.com" className="text-tibet-amber hover:text-tibet-red transition-colors">
-                          contact@tibetantreasures.com
+                        <a href="mailto:kuyanchaitw@gmail.com" className="text-tibet-amber hover:text-tibet-red transition-colors">
+                          kuyanchaitw@gmail.com
                         </a>
                       </div>
                     </div>

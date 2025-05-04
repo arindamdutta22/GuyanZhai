@@ -1,8 +1,8 @@
-
 import React, { useEffect, useRef } from 'react';
 import { cn } from '@/lib/utils';
 import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const imageRef = useRef<HTMLImageElement>(null);
@@ -82,14 +82,14 @@ const Hero = () => {
               {t('explore_button')} <ArrowRight className="w-4 h-4" />
             </a>
             
-            <a 
-              href="/about" 
+            <Link 
+              to="/about" 
               className={cn(
                 "btn-hover inline-flex items-center gap-2 px-8 py-3 rounded-md border border-tibet-gold/30 text-tibet-gold font-medium",
               )}
             >
               {t('our_story')}
-            </a>
+            </Link>
           </div>
         </div>
       </div>
