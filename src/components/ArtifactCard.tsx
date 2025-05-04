@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { cn } from '@/lib/utils';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -10,7 +9,7 @@ interface ArtifactCardProps {
   name: string;
   origin: string;
   period: string;
-  price: string;
+  price?: string;
   description: string;
   className?: string;
 }

@@ -13,8 +13,7 @@ const allArtifacts = [
     name: "Wrathful Vajrakilaya Bronze",
     origin: "Tibet",
     period: "19th Century",
-    price: "NT$ 165,000",
-    description: "Exquisite bronze statue depicting Vajrakilaya, a wrathful protector deity, with intricate floral bow details and dynamic posture. Features remarkable red-tinted crown flames and detailed metalwork.",
+    description: "A powerful bronze statue of Vajrakilaya, a wrathful deity in Tibetan Buddhism. The statue features a dynamic three-headed form with multiple arms holding ritual implements, standing on a lotus base with intricate detailing. The craftsmanship showcases traditional Tibetan metalwork techniques, with each detail carefully rendered to convey the deity's protective and transformative qualities.",
     category: "Buddhist Artifacts"
   },
   {
@@ -23,8 +22,7 @@ const allArtifacts = [
     name: "Thousand-Armed Avalokiteshvara",
     origin: "Tibet",
     period: "Early 20th Century",
-    price: "NT$ 245,000",
-    description: "Magnificent gilded statue of the thousand-armed Avalokiteshvara with multiple heads, symbolizing infinite compassion. Features an elaborate mandorla and intricate details in traditional Tibetan style.",
+    description: "A magnificent gilded bronze statue of Avalokiteshvara, the bodhisattva of compassion. The statue displays multiple arms radiating from the central figure, each holding different symbolic objects, with a serene expression and elaborate crown. The gilding work is particularly noteworthy, with the gold leaf carefully applied to highlight the deity's divine nature and spiritual significance.",
     category: "Buddhist Artifacts"
   },
   {
@@ -33,8 +31,7 @@ const allArtifacts = [
     name: "Ancient Bronze Buddhist Master",
     origin: "Tibet",
     period: "18th Century",
-    price: "NT$ 180,000",
-    description: "Rare bronze statue of a Buddhist master in meditation pose, showing remarkable age patina. Notable for its serene expression and fine sculptural details in traditional Tibetan style.",
+    description: "A finely crafted bronze statue of a Buddhist master in meditation pose. The figure sits in the lotus position with hands in a mudra, wearing traditional monastic robes with detailed folds and a serene expression. The patina on the bronze suggests its age and authenticity, while the master's peaceful countenance reflects deep spiritual attainment.",
     category: "Buddhist Artifacts"
   },
   {
@@ -43,8 +40,7 @@ const allArtifacts = [
     name: "Green Tara with Turquoise",
     origin: "Nepal",
     period: "19th Century",
-    price: "NT$ 195,000",
-    description: "Beautiful bronze statue of Green Tara adorned with turquoise and coral inlays. Features exceptional craftsmanship with detailed crown and jewelry work in Nepalese style.",
+    description: "An elegant bronze statue of Green Tara, the female bodhisattva of compassion. The figure sits in a relaxed pose with one leg extended, adorned with traditional jewelry and a crown, featuring turquoise inlays. The statue's graceful posture and detailed ornamentation reflect the Nepalese style of Buddhist art, while the turquoise accents add a distinctive Himalayan touch.",
     category: "Buddhist Artifacts"
   },
   {
@@ -53,8 +49,7 @@ const allArtifacts = [
     name: "Bronze Ganesha Statue",
     origin: "Nepal",
     period: "Late 19th Century",
-    price: "NT$ 186,000",
-    description: "Finely crafted bronze Ganesha statue with rich patina, seated on a lotus throne. Features traditional attributes including the axe and sacred thread, with detailed ornamental work.",
+    description: "A detailed bronze statue of Ganesha, the elephant-headed Hindu deity. The figure sits in a royal posture with multiple arms holding various attributes, including a bowl of sweets and a broken tusk. The statue's intricate detailing and balanced proportions exemplify the Nepalese tradition of metal sculpture, while the deity's benevolent expression conveys wisdom and prosperity.",
     category: "Ritual Objects"
   },
   {
@@ -63,8 +58,7 @@ const allArtifacts = [
     name: "Tribal Floral Embroidery",
     origin: "Taiwan",
     period: "Mid 20th Century",
-    price: "NT$ 58,000",
-    description: "Stunning tribal textile featuring intricate floral medallion patterns in vibrant colors including yellow, white, and red. Shows exceptional craftsmanship with detailed circular motifs and geometric borders.",
+    description: "A vibrant textile featuring traditional tribal embroidery with floral motifs. The piece showcases intricate patterns in red, yellow, and white threads, creating a harmonious geometric design with cultural significance. The embroidery techniques used reflect the indigenous craftsmanship of Taiwan's native tribes, with each stitch carrying symbolic meaning and cultural heritage.",
     category: "Indigenous Art"
   },
   {
@@ -73,8 +67,7 @@ const allArtifacts = [
     name: "Black Geometric Textile",
     origin: "Taiwan",
     period: "Early 20th Century",
-    price: "NT$ 62,000",
-    description: "Remarkable black textile with vibrant geometric patterns in pink, red, and turquoise. Features traditional motifs and symbols with intricate embroidery work and green fringe details.",
+    description: "A striking black textile adorned with geometric patterns in contrasting colors. The design features traditional symbols and motifs in pink, red, and turquoise, with precise embroidery work and decorative borders. The textile's bold color combinations and precise geometric patterns demonstrate the sophisticated textile traditions of Taiwan's indigenous cultures.",
     category: "Indigenous Art"
   },
   {
@@ -83,8 +76,7 @@ const allArtifacts = [
     name: "Ceremonial Embroidered Panel",
     origin: "Taiwan",
     period: "Mid 20th Century",
-    price: "NT$ 45,000",
-    description: "Exquisite ceremonial panel with central floral medallion surrounded by geometric patterns. Features fine embroidery work in purple, green, and pink with traditional border designs.",
+    description: "A ceremonial textile panel with a central medallion design. The piece features intricate embroidery in purple, green, and pink, with traditional patterns and symbols arranged in a balanced composition. The panel's design elements and color scheme reflect the ceremonial significance of textiles in Taiwanese indigenous culture, serving both decorative and ritual purposes.",
     category: "Tibetan Textiles"
   }
 ];
@@ -207,7 +199,6 @@ const Collection = () => {
                     name={artifact.name}
                     origin={artifact.origin}
                     period={artifact.period}
-                    price={artifact.price}
                     description={artifact.description}
                   />
                 ))}
