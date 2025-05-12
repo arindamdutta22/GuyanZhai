@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { Menu, X, ShoppingCart } from 'lucide-react';
@@ -39,9 +38,11 @@ const Navbar = () => {
             to="/" 
             className="flex items-center"
           >
-            <span className="font-display text-2xl text-tibet-gold font-medium">
-              古硯齋
-            </span>
+            <img 
+              src="/logo.png" 
+              alt="古硯齋" 
+              className="h-8 w-auto"
+            />
           </Link>
 
           {/* Language Toggle */}
