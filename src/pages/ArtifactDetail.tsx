@@ -224,7 +224,7 @@ const ArtifactDetail = () => {
         <div className="container px-6 md:px-8 mb-8">
           <button 
             onClick={() => navigate(-1)} 
-            className="inline-flex items-center gap-2 text-tibet-blue hover:text-tibet-red transition-colors"
+            className="inline-flex items-center gap-2 text-tibet-teal hover:text-tibet-red transition-colors"
           >
             <ArrowLeft size={18} />
             {t('back_to_collection')}
