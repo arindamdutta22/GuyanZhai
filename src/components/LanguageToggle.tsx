@@ -13,7 +13,7 @@ const LanguageToggle = () => {
           "text-xs font-medium transition-colors px-2 py-1 rounded",
           language === 'en' 
             ? "bg-tibet-gold text-white" 
-            : "text-tibet-teal hover:text-tibet-gold"
+            : "text-white hover:text-tibet-gold"
         )}
         aria-label="Switch to English"
       >
@@ -26,7 +26,7 @@ const LanguageToggle = () => {
           "text-xs font-medium transition-colors px-2 py-1 rounded",
           language === 'zh' 
             ? "bg-tibet-gold text-white" 
-            : "text-tibet-teal hover:text-tibet-gold"
+            : "text-white hover:text-tibet-gold"
         )}
         aria-label="切換到繁體中文"
       >
