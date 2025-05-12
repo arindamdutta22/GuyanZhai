@@ -170,9 +170,6 @@ const ArtifactDetail = () => {
   const { toast } = useToast();
   const { t, language } = useLanguage();
   const [selectedImage, setSelectedImage] = useState('');
-  const [inquiryName, setInquiryName] = useState('');
-  const [inquiryEmail, setInquiryEmail] = useState('');
-  const [inquiryMessage, setInquiryMessage] = useState('');
   
   // Find the artifact based on the ID
   const artifact = artifacts.find(item => item.id === id);
@@ -203,17 +200,6 @@ const ArtifactDetail = () => {
       </div>
     );
   }
-  
-  const handleSubmitInquiry = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({
-      title: "Inquiry Sent",
-      description: "We've received your inquiry and will respond within 24 hours.",
-    });
-    setInquiryName('');
-    setInquiryEmail('');
-    setInquiryMessage('');
-  };
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -390,44 +376,44 @@ const ArtifactDetail = () => {
                   {t('contact_text')}
                 </p>
                 
-                <form onSubmit={handleSubmitInquiry} className="space-y-4">
+                <form
+                  action="https://formsubmit.co/guyanzhai.tamsui@gmail.com"
+                  method="POST"
+                  className="space-y-4"
+                >
+                  <input type="hidden" name="_next" value={typeof window !== 'undefined' ? window.location.href : ''} />
+                  <input type="hidden" name="_captcha" value="false" />
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium mb-1">{t('your_name')}</label>
                     <Input
                       id="name"
-                      value={inquiryName}
-                      onChange={(e) => setInquiryName(e.target.value)}
+                      name="name"
                       className="bg-tibet-navy/30 border-tibet-gold/30 text-white placeholder:text-white/50"
                       placeholder={t('your_name')}
                       required
                     />
                   </div>
-                  
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium mb-1">{t('your_email')}</label>
                     <Input
                       id="email"
+                      name="email"
                       type="email"
-                      value={inquiryEmail}
-                      onChange={(e) => setInquiryEmail(e.target.value)}
                       className="bg-tibet-navy/30 border-tibet-gold/30 text-white placeholder:text-white/50"
                       placeholder={t('your_email')}
                       required
                     />
                   </div>
-                  
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium mb-1">{t('your_message')}</label>
                     <Textarea
                       id="message"
-                      value={inquiryMessage}
-                      onChange={(e) => setInquiryMessage(e.target.value)}
+                      name="message"
                       className="bg-tibet-navy/30 border-tibet-gold/30 text-white placeholder:text-white/50 min-h-[120px]"
                       placeholder={t('inquiry_placeholder')}
                       required
                     />
                   </div>
-                  
                   <Button 
                     type="submit" 
                     className="w-full bg-tibet-amber hover:bg-tibet-red text-white"
