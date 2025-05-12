@@ -79,9 +79,6 @@ const Navbar = () => {
             >
               {t('about')}
             </NavLink>
-            <div className="ml-6 p-2 rounded-full bg-tibet-amber/20 hover:bg-tibet-amber/30 transition-colors">
-              <ShoppingCart className="h-5 w-5 text-tibet-gold" />
-            </div>
           </nav>
 
           {/* Mobile menu button */}
