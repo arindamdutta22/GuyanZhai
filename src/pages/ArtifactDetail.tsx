@@ -194,8 +194,8 @@ const ArtifactDetail = () => {
           <div className="container px-6 md:px-8 text-center">
             <h2 className="text-2xl font-display mb-4">Artifact not found</h2>
             <p className="mb-6">The artifact you're looking for doesn't exist or has been removed.</p>
-            <Button onClick={() => navigate('/collection')}>
-              Return to Collection
+            <Button onClick={() => navigate('/collection')} className="text-tibet-teal">
+              {t('back_to_collection')}
             </Button>
           </div>
         </main>
@@ -308,8 +308,8 @@ const ArtifactDetail = () => {
                       <Mail className="w-5 h-5 text-tibet-amber mt-0.5" />
                       <div>
                         <p className="font-medium">{t('email')}</p>
-                        <a href="mailto:kuyanchaitw@gmail.com" className="text-tibet-amber hover:text-tibet-red transition-colors">
-                          kuyanchaitw@gmail.com
+                        <a href="mailto:guyanzhai.tamsui@gmail.com" className="text-tibet-amber hover:text-tibet-red transition-colors">
+                          guyanzhai.tamsui@gmail.com
                         </a>
                       </div>
                     </div>
