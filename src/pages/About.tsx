@@ -153,51 +153,14 @@ const About = () => {
                 {t('commitment_text')}
               </p>
             </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="text-center">
-                <div className="aspect-square w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=500&q=80" 
-                    alt="Dr. Sarah Chen" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-display font-medium">Dr. Sarah Chen</h3>
-                <p className="text-tibet-blue mb-2">{t('founder')}</p>
-                <p className="text-foreground/70 mx-auto max-w-xs">
-                  {t('founder_bio')}
-                </p>
+                <h3 className="text-xl font-display font-medium mb-2">Virginia Lu <span className="text-base text-tibet-blue">呂貴英</span></h3>
+                <p className="text-tibet-blue mb-0">Founder and Art Specialist</p>
               </div>
-              
               <div className="text-center">
-                <div className="aspect-square w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=500&q=80" 
-                    alt="Tenzin Dorje" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-display font-medium">Tenzin Dorje</h3>
-                <p className="text-tibet-blue mb-2">{t('art_specialist')}</p>
-                <p className="text-foreground/70 mx-auto max-w-xs">
-                  {t('specialist_bio')}
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="aspect-square w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden">
-                  <img 
-                    src="https://images.unsplash.com/photo-1573497161161-c3e73707e25c?auto=format&fit=crop&w=500&q=80" 
-                    alt="Dr. Maya Lin" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-display font-medium">Dr. Maya Lin</h3>
-                <p className="text-tibet-blue mb-2">{t('education_coordinator')}</p>
-                <p className="text-foreground/70 mx-auto max-w-xs">
-                  {t('coordinator_bio')}
-                </p>
+                <h3 className="text-xl font-display font-medium mb-2">Alexia Kuo</h3>
+                <p className="text-tibet-blue mb-0">Collector</p>
               </div>
             </div>
           </div>
