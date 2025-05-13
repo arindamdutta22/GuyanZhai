@@ -59,41 +59,33 @@ const ArtifactCard = ({
   return (
     <div className={cn("group cursor-pointer", className)}>
       <Link to={`/artifact/${id}`} className="block h-full">
-        <div className="flex flex-col h-full overflow-hidden rounded-lg bg-tibet-navy/50 border border-tibet-gold/20 artifact-shadow">
-          <div className="relative aspect-[3/4] overflow-hidden">
-            <img
-              ref={imageRef}
-              src="/placeholder.svg"
-              data-src={image}
-              alt={name}
-              className="w-full h-full object-cover object-center transition-transform duration-700 image-lazy-load group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+      <div className="flex flex-col h-full overflow-hidden rounded-lg bg-tibet-navy/50 border border-tibet-gold/20 artifact-shadow">
+        <div className="relative aspect-[3/4] overflow-hidden">
+          <img
+            ref={imageRef}
+            src="/placeholder.svg"
+            data-src={image}
+            alt={name}
+            className="w-full h-full object-cover object-center transition-transform duration-700 image-lazy-load group-hover:scale-105"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+        
+        <div className="p-5 flex flex-col flex-grow text-white">
+          <div className="flex justify-between items-start mb-2">
+            <div>
+              <span className="inline-block px-2 py-1 mb-2 bg-tibet-amber/20 text-tibet-amber text-xs uppercase tracking-wide rounded-sm">
+                {origin}
+              </span>
+              <h3 className="font-display text-lg font-medium leading-tight">{name}</h3>
+            </div>
           </div>
           
-          <div className="p-5 flex flex-col flex-grow text-white">
-            <div className="flex justify-between items-start mb-2">
-              <div>
-                <span className="inline-block px-2 py-1 mb-2 bg-tibet-amber/20 text-tibet-amber text-xs uppercase tracking-wide rounded-sm">
-                  {origin}
-                </span>
-                <h3 className="font-display text-lg font-medium leading-tight">{name}</h3>
-              </div>
-            </div>
-            
-            <p className="text-sm text-white/70 mb-3">{period}</p>
-            <p className="text-sm text-white/80 flex-grow">{description}</p>
+          <p className="text-sm text-white/70 mb-3">{period}</p>
+          <p className="text-sm text-white/80 flex-grow">{description}</p>
           </div>
         </div>
       </Link>
-      <div className="mt-4 pt-4 border-t border-tibet-gold/20">
-        <Link 
-          to={`/artifact/${id}`} 
-          className="block w-full py-2 text-center text-sm font-medium text-tibet-gold hover:text-tibet-red transition-colors"
-        >
-          {t('contact_about_artifact')}
-        </Link>
-      </div>
     </div>
   );
 };
