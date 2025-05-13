@@ -1,7 +1,7 @@
-# KuyanChai
+# GuyanZhai
 
 A website for the Tibetan store in Tamsui, Taiwan selling artifacts.
-https://kuyanchai.vercel.app
+https://guyanzhai.vercel.app
 
 ## Technologies Used
 
@@ -15,12 +15,12 @@ https://kuyanchai.vercel.app
 
 1. Clone the repository:
 ```sh
-git clone https://github.com/arindamdutta22/KuyanChai.git
+git clone https://github.com/arindamdutta22/GuyanZhai.git
 ```
 
 2. Navigate to the project directory:
 ```sh
-cd KuyanChai
+cd GuyanZhai
 ```
 
 3. Install dependencies:
