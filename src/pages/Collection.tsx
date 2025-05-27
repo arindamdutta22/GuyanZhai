@@ -46,10 +46,14 @@ const allArtifacts = [
   {
     id: "3",
     image: "/images/artifacts/artifact3.png",
-    name: "Ancient Bronze Buddhist Master",
-    origin: "Tibet",
-    period: "18th Century",
-    description: "A finely crafted bronze statue of a Buddhist master in meditation pose. The figure sits in the lotus position with hands in a mudra, wearing traditional monastic robes with detailed folds and a serene expression. The patina on the bronze suggests its age and authenticity, while the master's peaceful countenance reflects deep spiritual attainment.",
+    name: { en: "Guru Padmasambhava", zh: "蓮花生大師" },
+    origin: { en: "Tibet", zh: "西藏" },
+    period: { en: "19th Century", zh: "19世紀" },
+    description: {
+      en: "Padmasambhava\n\nGuru Padmasambhava, also known as Guru Rinpoche, is an important founder of Tibetan Buddhism and an important leader of Tibetan Tantric Buddhism. He is known for building the first monastery in Tibet and translating important exoteric and esoteric texts into Tibetan, laying the foundation for the development of Tibetan Buddhism.",
+      zh: "蓮花生大師，又稱蓮師，是藏傳佛教的重要創始人，也是藏傳密宗的重要領袖。他以在西藏建立第一座寺院並將重要的顯密經典譯為藏文而聞名，為藏傳佛教的發展奠定了基礎。"
+    },
+    dimensions: { en: "approx. 40cm", zh: "約40厘米" },
     category: "Buddhist Artifacts"
   },
   {
