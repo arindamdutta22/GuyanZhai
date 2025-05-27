@@ -468,9 +468,7 @@ const ArtifactDetail = () => {
                   <input type="hidden" name="_next" value={typeof window !== 'undefined' ? window.location.href : ''} />
                   <input type="hidden" name="_captcha" value="false" />
                   <input type="hidden" name="Artifact Name" value={language === 'en' ? artifact.name : artifact.name_zh} />
-                  <input type="hidden" name="Artifact Image URL" value={artifact.image} />
                   <input type="hidden" name="_template" value="table" />
-                  <input type="hidden" name="Artifact Image" value={`<img src="${artifact.image}" alt="${language === 'en' ? artifact.name : artifact.name_zh}" style="max-width: 300px;" />`} />
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium mb-1">{t('your_name')}</label>
                     <Input
