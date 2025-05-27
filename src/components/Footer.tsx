@@ -146,6 +146,9 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
+      <div className="text-center text-sm text-gray-400 mt-4">
+        Visitors: {visitorCount}
+      </div>
     </footer>
   );
 };
