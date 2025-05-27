@@ -55,10 +55,13 @@ const allArtifacts = [
   {
     id: "2",
     image: "/images/artifacts/artifact2.png",
-    name: "Thousand-Armed Avalokiteshvara",
-    origin: "Tibet",
-    period: "Early 20th Century",
-    description: "A magnificent gilded bronze statue of Avalokiteshvara, the bodhisattva of compassion. The statue displays multiple arms radiating from the central figure, each holding different symbolic objects, with a serene expression and elaborate crown. The gilding work is particularly noteworthy, with the gold leaf carefully applied to highlight the deity's divine nature and spiritual significance.",
+    name: { en: "Sahasrabhuja Sahasranetra Avalokiteshvara", zh: "千手千眼觀世音菩薩" },
+    origin: { en: "Tibet", zh: "西藏" },
+    period: { en: "18th Century", zh: "18世紀" },
+    description: {
+      en: "Thousand-armed and Thousand-eyed Avalokiteshvara (Sanskrit name: Sahasrabhuja Sahasranetra Avalokiteshvara)\n• Thousand Hands: It symbolizes using countless arms to help all living beings and possesses the vast and unhindered power of compassion.\n• Thousand Eyes: One eye in each palm symbolizes the insight into all suffering and constant observation of the world.",
+      zh: "千手千眼觀世音菩薩（梵文名：Sahasrabhuja Sahasranetra Avalokiteshvara）\n• 千手：象徵著用無數的手臂來幫助所有眾生，擁有廣大無礙的慈悲力量。\n• 千眼：每隻手掌中的一隻眼睛象徵著洞察一切苦難並持續觀察世界。"
+    },
     category: "Buddhist Artifacts"
   },
   {
