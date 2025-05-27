@@ -221,8 +221,8 @@ const artifacts = [
   {
     id: '11',
     image: "/images/artifacts/artifact11.png",
-    name: "Holy Tara",
-    name_zh: "聖救度佛母",
+    name: "Twenty-One Tara",
+    name_zh: "二十一度母",
     origin: "Tibet",
     origin_zh: "西藏",
     period: "Contemporary",
