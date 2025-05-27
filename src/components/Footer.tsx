@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
         setVisitorCount(data.value);
       });
   }, []);
-
+  
   return (
     <footer className="bg-tibet-blue/95 text-white">
       <div className="container px-6 md:px-8 py-16">

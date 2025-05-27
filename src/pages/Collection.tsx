@@ -8,6 +8,15 @@ import { useLanguage } from '@/contexts/LanguageContext';
 // Sample artifacts data - in a real app this would come from an API
 const allArtifacts = [
   {
+    id: "9",
+    image: "/images/artifacts/artifact9.png",
+    name: "Guru Padmasambhava",
+    origin: "Tibet",
+    period: "18th Century",
+    description: "Guru Padmasambhava, also known as Guru Rinpoche, is an important founder of Tibetan Buddhism and an important leader of Tibetan Tantric Buddhism. He is known for building the first monastery in Tibet and translating important exoteric and esoteric texts into Tibetan, laying the foundation for the development of Tibetan Buddhism.",
+    category: "Buddhist Artifacts"
+  },
+  {
     id: "1",
     image: "/images/artifacts/artifact1.png",
     name: "Wrathful Vajrakilaya Bronze",

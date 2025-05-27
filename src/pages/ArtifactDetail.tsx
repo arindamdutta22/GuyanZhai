@@ -161,6 +161,34 @@ const artifacts = [
       "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1580397581415-4c07a1361db9?auto=format&fit=crop&w=1000&q=80"
     ]
+  },
+  {
+    id: '9',
+    image: "/images/artifacts/artifact9.png",
+    name: "Guru Padmasambhava",
+    name_zh: "蓮花生大師",
+    origin: "Tibet",
+    origin_zh: "西藏",
+    period: "18th Century",
+    period_zh: "18世紀",
+    price: "",
+    description: "Guru Padmasambhava, also known as Guru Rinpoche, is an important founder of Tibetan Buddhism and an important leader of Tibetan Tantric Buddhism. He is known for building the first monastery in Tibet and translating important exoteric and esoteric texts into Tibetan, laying the foundation for the development of Tibetan Buddhism.",
+    description_zh: "蓮花生大師，又稱蓮師，是藏傳佛教的重要創始人，也是藏傳密宗的重要領袖。他以在西藏建立第一座寺院並將重要的顯密經典譯為藏文而聞名，為藏傳佛教的發展奠定了基礎。",
+    detailedDescription: `The symbolic meaning of Guru Padmasambhava:\n\nWisdom and Compassion:\nGuru Padmasambhava is usually depicted wearing a red robe, holding a vajra in his right hand and a skull bowl (a bowl made of human skull) in his left hand, symbolizing wisdom and compassion.\n\nBreaking down barriers:\nThe vajra represents the removal of all obstacles and the subjugation of troubles, while the skull bowl represents great compassion and emptiness.\n\nBuddhist inheritance:\nGuru Padmasambhava's rebirth from a lotus symbolizes the emergence of the Dharma from the lotus and has become a symbol of the transmission of the Dharma.\n\nOther names and titles:\nGuru Padmasambhava: A respectful title given to Guru Padmasambhava by his disciples and believers.\nGuru Rinpoche: The Tibetan name for Guru Padmasambhava, meaning "honorable master."`,
+    detailedDescription_zh: `蓮花生大師的象徵意義：\n\n智慧與慈悲：\n蓮花生大師通常身穿紅袍，右手持金剛杵，左手持顱器（以人頭骨製成的缽），象徵智慧與慈悲。\n\n破除障礙：\n金剛杵代表消除一切障礙與降伏煩惱，顱器則象徵大悲與空性。\n\n佛法傳承：\n蓮花生大師從蓮花中化生，象徵佛法從蓮花中誕生，成為佛法傳承的象徵。\n\n其他名稱與尊號：\n蓮花生大師：弟子與信眾對蓮花生大師的尊稱。\n蓮師（Guru Rinpoche）：藏語對蓮花生大師的稱呼，意為「尊貴的上師」。`,
+    dimensions: "Approx. 30cm tall",
+    dimensions_zh: "約30厘米高",
+    condition: "Excellent - as shown in photo",
+    condition_zh: "極佳 - 如照片所示",
+    provenance: "Private collection, Taiwan",
+    provenance_zh: "台灣私人收藏",
+    authentication: "",
+    authentication_zh: "",
+    shipping: "International shipping available. Professionally packed and fully insured.",
+    shipping_zh: "提供國際運送。專業包裝並全額保險。",
+    moreImages: [
+      "/images/artifacts/artifact9.png"
+    ]
   }
 ];
 
