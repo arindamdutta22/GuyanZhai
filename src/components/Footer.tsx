@@ -10,8 +10,10 @@ const Footer: React.FC = () => {
   const [visitorCount, setVisitorCount] = useState(0);
 
   useEffect(() => {
-    countapi.visits('guyanzhai.com').then((result) => {
-      setVisitorCount(result.value);
+    countapi.hit('guyanzhai.com', 'visits').then(() => {
+      countapi.get('guyanzhai.com', 'visits').then((result) => {
+        setVisitorCount(result.value);
+      });
     });
   }, []);
 
