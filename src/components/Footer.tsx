@@ -145,10 +145,10 @@ const Footer: React.FC = () => {
             <a href="#" className="hover:text-tibet-amber transition-colors">{t('terms_of_service')}</a>
             <a href="#" className="hover:text-tibet-amber transition-colors">{t('cookie_policy')}</a>
           </div>
+          <div className="mt-4 md:mt-0">
+            Visitors: {visitorCount}
+          </div>
         </div>
-      </div>
-      <div className="text-center text-sm text-gray-400 mt-4">
-        Visitors: {visitorCount}
       </div>
     </footer>
   );
