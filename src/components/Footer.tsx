@@ -143,9 +143,6 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} GuyanZhai. All rights reserved. | Visitors: {visitorCount}
-      </div>
     </footer>
   );
 };
