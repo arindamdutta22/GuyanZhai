@@ -9,7 +9,12 @@ const Footer: React.FC = () => {
   const [visitorCount, setVisitorCount] = useState(0);
 
   useEffect(() => {
-    setVisitorCount(prev => prev + 1);
+    // Use CountAPI to increment and fetch the hit count
+    fetch('https://api.countapi.xyz/hit/guyanzhai.com/visits')
+      .then(res => res.json())
+      .then(data => {
+        setVisitorCount(data.value);
+      });
   }, []);
 
   return (
