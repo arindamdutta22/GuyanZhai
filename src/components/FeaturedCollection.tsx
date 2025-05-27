@@ -27,45 +27,57 @@ const artifacts = [
     }
   },
   {
-    id: "6",
-    image: "/images/artifacts/artifact6.png",
+    id: "10",
+    image: "/images/artifacts/artifact10.png",
     name: {
-      en: "Taiwanese Tribal Embroidery",
-      zh: "台灣部落刺繡"
+      en: "Amitayus Buddha",
+      zh: "無量壽佛"
     },
     origin: {
-      en: "Taiwan",
-      zh: "台灣"
+      en: "Tibet",
+      zh: "西藏"
     },
     period: {
-      en: "Mid 20th Century",
-      zh: "20世紀中期"
+      en: "18th Century",
+      zh: "18世紀"
     },
-    price: "NT$ 42,500",
+    price: "",
     description: {
-      en: "Hand-embroidered ceremonial cloth featuring traditional motifs in vibrant colors. This exquisite textile showcases the indigenous artisans' skill with circular floral patterns and intricate geometric designs.",
-      zh: "手工刺繡的儀式布，展現傳統圖案和鮮豔色彩。這件精美的紡織品展現了原住民工匠的圓形花卉圖案和複雜幾何設計技巧。"
+      en: "The Buddha of Longevity (Amitayus), also known as the Buddha of Infinite Life (Amitayus Buddha), is the manifestation of 'Amitabha' or the Buddha of Infinite Light. He is the main deity in the west among the 'Five Buddhas' of the Lotus Division. In the Garbha-dhatu realm, it is called 'Amitābha', and in the Vajra-dhatu realm, it is called 'Amitabha'. 'Amitābha' means innumerable and boundless. It is another form of the Dharmakāya Amitabha Buddha in the form of the Sambhogakaya Buddha.",
+      zh: '無量壽佛，又稱無量壽如來，是「阿彌陀佛」或無量光佛的化現。他是蓮華部五方佛中西方的主尊。在胎藏界稱為「阿彌陀佛」，在金剛界稱為「阿彌陀佛」。「阿彌陀」意為無量、無邊，是法身阿彌陀佛以報身佛形態出現的另一種形象。'
     }
   },
   {
-    id: "7",
-    image: "/images/artifacts/artifact7.png",
+    id: "9",
+    image: "/images/artifacts/artifact9.png",
     name: {
-      en: "Black Hmong Ceremonial Textile",
-      zh: "黑苗族儀式紡織品"
+      en: "Guru Padmasambhava",
+      zh: "蓮花生大師"
     },
     origin: {
-      en: "Taiwan",
-      zh: "台灣"
+      en: "Tibet",
+      zh: "西藏"
     },
     period: {
-      en: "Early 20th Century",
-      zh: "20世紀初"
+      en: "18th Century",
+      zh: "18世紀"
     },
-    price: "NT$ 57,000",
+    price: "",
     description: {
-      en: "Stunning black textile with vibrantly colored geometric patterns and symbols, hand-woven and embroidered for ceremonial purposes, featuring pink and turquoise motifs with detailed cross-stitch work.",
-      zh: "令人驚嘆的黑色紡織品，帶有鮮豔的幾何圖案和符號，手工編織和刺繡，用於儀式，並以粉紅和綠松石圖案及精細的十字繡為特色。"
+      en: "Guru Padmasambhava, also known as Guru Rinpoche, is an important founder of Tibetan Buddhism and an important leader of Tibetan Tantric Buddhism. He is known for building the first monastery in Tibet and translating important exoteric and esoteric texts into Tibetan, laying the foundation for the development of Tibetan Buddhism.",
+      zh: "蓮花生大師，又稱蓮師，是藏傳佛教的重要創始人，也是藏傳密宗的重要領袖。他以在西藏建立第一座寺院並將重要的顯密經典譯為藏文而聞名，為藏傳佛教的發展奠定了基礎。"
+    }
+  },
+  {
+    id: "11",
+    image: "/images/artifacts/artifact11.png",
+    name: { en: "Twenty-One Tara", zh: "二十一度母" },
+    origin: { en: "Tibet", zh: "西藏" },
+    period: { en: "Contemporary", zh: "當代" },
+    price: "",
+    description: {
+      en: "Tiantie Twenty-Tara Buddha Shrine\n• Main deity: Holy Tara (Green Tara) – Located in the center, she is the incarnation of Avalokitesvara, symbolizing compassion and swift relief from suffering.\n• Surrounded by: twenty incarnations of Taras – collectively known as the 'Twenty-one Taras', each representing a different rescue power, such as removing obstacles, pacifying disasters, increasing benefits, and bringing about appeasement.",
+      zh: "天鐵二十一度母佛龕\n• 主尊：聖救度佛母（綠度母）——位於中央，是觀音菩薩的化身，象徵慈悲與迅速救苦。\n• 周圍環繞：二十一尊度母化身——合稱'二十一度母'，每一尊代表不同的救度力量，如消除障礙、息災、增益、調和等。"
     }
   }
 ];
