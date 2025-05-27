@@ -3,18 +3,17 @@ import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Instagram, Facebook } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Map from './Map';
-import countapi from 'countapi-js';
 
 const Footer: React.FC = () => {
   const { t } = useLanguage();
   const [visitorCount, setVisitorCount] = useState(0);
 
   useEffect(() => {
-    countapi.hit('guyanzhai.com', 'visits').then(() => {
-      countapi.get('guyanzhai.com', 'visits').then((result) => {
-        setVisitorCount(result.value);
+    fetch('https://abacus.jasoncameron.dev/hit/guyanzhai.com/visits')
+      .then(res => res.json())
+      .then(data => {
+        setVisitorCount(data.value);
       });
-    });
   }, []);
 
   return (
