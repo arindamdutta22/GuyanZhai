@@ -67,9 +67,7 @@ const artifacts = [
     shipping: "International shipping available. Professionally packed and fully insured.",
     shipping_zh: "提供國際運送。專業包裝並全額保險。",
     moreImages: [
-      "/images/artifacts/artifact2.png",
-      "https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1610642434183-6edea249d160?auto=format&fit=crop&w=1000&q=80"
+      "/images/artifacts/artifact2.png"
     ]
   },
   {
