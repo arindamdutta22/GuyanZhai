@@ -144,10 +144,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} GuyanZhai. All rights reserved.
-      </div>
-      <div className="text-center text-sm text-gray-400 mt-2">
-        Visitors: {visitorCount}
+        © {new Date().getFullYear()} GuyanZhai. All rights reserved. | Visitors: {visitorCount}
       </div>
     </footer>
   );
