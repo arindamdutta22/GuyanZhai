@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Instagram, Facebook } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Map from './Map';
 
-const Footer = () => {
+const Footer: React.FC = () => {
   const { t } = useLanguage();
-  
+  const [visitorCount, setVisitorCount] = useState(0);
+
+  useEffect(() => {
+    setVisitorCount(prev => prev + 1);
+  }, []);
+
   return (
     <footer className="bg-tibet-blue/95 text-white">
       <div className="container px-6 md:px-8 py-16">
@@ -137,6 +142,12 @@ const Footer = () => {
             <a href="#" className="hover:text-tibet-amber transition-colors">{t('cookie_policy')}</a>
           </div>
         </div>
+      </div>
+      <div className="text-center text-sm text-gray-400">
+        © {new Date().getFullYear()} GuyanZhai. All rights reserved.
+      </div>
+      <div className="text-center text-sm text-gray-400 mt-2">
+        Visitors: {visitorCount}
       </div>
     </footer>
   );
