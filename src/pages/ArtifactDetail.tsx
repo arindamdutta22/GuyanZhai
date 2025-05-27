@@ -13,36 +13,6 @@ import Map from '@/components/Map';
 // This would normally come from a database or API
 const artifacts = [
   {
-    id: '1',
-    image: "/images/artifacts/artifact1.png",
-    name: "Tibetan Thangka - Avalokiteshvara",
-    name_zh: "藏傳唐卡 - 觀世音菩薩",
-    origin: "Tibet",
-    origin_zh: "西藏",
-    period: "19th Century",
-    period_zh: "19世紀",
-    price: "NT$ 135,000",
-    description: "Exquisite thangka painting depicting the Buddhist deity Avalokiteshvara with multiple arms, representing compassion and mercy, created with natural pigments on cotton canvas.",
-    description_zh: "精美的唐卡畫作描繪了多臂觀世音菩薩，象徵慈悲與憐憫，使用天然顏料在棉布畫布上創作而成。",
-    detailedDescription: "This exceptional Tibetan thangka portrays Avalokiteshvara, the bodhisattva of compassion, in his most recognizable form with multiple arms radiating outward in a gesture of universal compassion. Created by master artists from Tibet using traditional techniques passed down through generations, this piece exemplifies the highest standards of Himalayan sacred art.\n\nThe thangka was crafted using natural mineral pigments on handwoven cotton canvas that has been prepared with traditional gesso. Gold details highlight the deity's ornaments and sacred symbols, applied using an ancient technique of ground mineral gold mixed with a natural binding agent.\n\nThe iconography follows strict traditional proportions and symbolism, making it suitable for both meditation practice and as a stunning artistic centerpiece. The painting displays exceptional attention to detail in the facial features, ornate jewelry, and flowing garments.",
-    detailedDescription_zh: "這幅卓越的西藏唐卡描繪了觀世音菩薩，即慈悲的菩薩，以其最為人熟知的形象出現，多隻手臂向外輻射，象徵普世慈悲。由西藏大師藝術家使用代代相傳的傳統技法創作，這件作品體現了喜馬拉雅神聖藝術的最高標準。\n\n唐卡使用天然礦物顏料在經過傳統石膏處理的手工棉布上繪製。神明的飾品和神聖符號以金色細節點綴，採用古老技術將礦物金粉與天然黏合劑混合而成。\n\n這幅畫的圖像學嚴格遵循傳統比例和象徵意義，使其既適合冥想修行，又可作為令人驚嘆的藝術中心點。繪畫在面部特徵、華麗珠寶和飄逸服飾上顯示出非凡的細節關注。",
-    dimensions: "86cm × 64cm (34\" × 25\")",
-    dimensions_zh: "86厘米 × 64厘米 (34\" × 25\")",
-    condition: "Excellent - minor age-related wear consistent with period",
-    condition_zh: "極佳 - 僅有與年代相符的輕微使用痕跡",
-    provenance: "Private collection, Kathmandu, Nepal",
-    provenance_zh: "尼泊爾加德滿都私人收藏",
-    authentication: "Certificate of authenticity included, verified by Dr. Jamyang Dorje, Himalayan Art Expert",
-    authentication_zh: "包含真品證書，經喜馬拉雅藝術專家Jamyang Dorje博士驗證",
-    shipping: "International shipping available. Professionally packed and fully insured.",
-    shipping_zh: "提供國際運送。專業包裝並全額保險。",
-    moreImages: [
-      "/images/artifacts/artifact1.png",
-      "https://images.unsplash.com/photo-1618228129223-c8457b56dd7e?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1575112634938-27e387855a6c?auto=format&fit=crop&w=1000&q=80"
-    ]
-  },
-  {
     id: '2',
     image: "/images/artifacts/artifact2.png",
     name: "Sahasrabhuja Sahasranetra Avalokiteshvara",

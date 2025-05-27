@@ -8,18 +8,6 @@ import { useLanguage } from '@/contexts/LanguageContext';
 // Sample artifacts data - in a real app this would come from an API
 const allArtifacts = [
   {
-    id: "11",
-    image: "/images/artifacts/artifact11.png",
-    name: { en: "Twenty-One Tara", zh: "二十一度母" },
-    origin: { en: "Tibet", zh: "西藏" },
-    period: { en: "Contemporary", zh: "當代" },
-    description: {
-      en: "Tiantie Twenty-Tara Buddha Shrine\n• Main deity: Holy Tara (Green Tara) – Located in the center, she is the incarnation of Avalokitesvara, symbolizing compassion and swift relief from suffering.\n• Surrounded by: twenty incarnations of Taras – collectively known as the \"Twenty-one Taras\", each representing a different rescue power, such as removing obstacles, pacifying disasters, increasing benefits, and bringing about appeasement.",
-      zh: "天鐵二十一度母佛龕\n• 主尊：聖救度佛母（綠度母）——位於中央，是觀音菩薩的化身，象徵慈悲與迅速救苦。\n• 周圍環繞：二十一尊度母化身——合稱\"二十一度母\"，每一尊代表不同的救度力量，如消除障礙、息災、增益、調和等。"
-    },
-    category: "Buddhist Artifacts"
-  },
-  {
     id: "10",
     image: "/images/artifacts/artifact10.png",
     name: { en: "Amitayus Buddha", zh: "無量壽佛" },
@@ -41,15 +29,6 @@ const allArtifacts = [
       en: "Guru Padmasambhava, also known as Guru Rinpoche, is an important founder of Tibetan Buddhism and an important leader of Tibetan Tantric Buddhism. He is known for building the first monastery in Tibet and translating important exoteric and esoteric texts into Tibetan, laying the foundation for the development of Tibetan Buddhism.",
       zh: "蓮花生大師，又稱蓮師，是藏傳佛教的重要創始人，也是藏傳密宗的重要領袖。他以在西藏建立第一座寺院並將重要的顯密經典譯為藏文而聞名，為藏傳佛教的發展奠定了基礎。"
     },
-    category: "Buddhist Artifacts"
-  },
-  {
-    id: "1",
-    image: "/images/artifacts/artifact1.png",
-    name: "Wrathful Vajrakilaya Bronze",
-    origin: "Tibet",
-    period: "19th Century",
-    description: "A powerful bronze statue of Vajrakilaya, a wrathful deity in Tibetan Buddhism. The statue features a dynamic three-headed form with multiple arms holding ritual implements, standing on a lotus base with intricate detailing. The craftsmanship showcases traditional Tibetan metalwork techniques, with each detail carefully rendered to convey the deity's protective and transformative qualities.",
     category: "Buddhist Artifacts"
   },
   {

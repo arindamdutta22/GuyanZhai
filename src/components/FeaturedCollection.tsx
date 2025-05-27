@@ -6,27 +6,6 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 const artifacts = [
   {
-    id: "1",
-    image: "/images/artifacts/artifact1.png",
-    name: {
-      en: "Tibetan Thangka - Avalokiteshvara",
-      zh: "藏傳唐卡 - 觀世音菩薩"
-    },
-    origin: {
-      en: "Tibet",
-      zh: "西藏"
-    },
-    period: {
-      en: "19th Century",
-      zh: "19世紀"
-    },
-    price: "NT$ 135,000",
-    description: {
-      en: "Exquisite thangka painting depicting the Buddhist deity Avalokiteshvara with multiple arms, representing compassion and mercy, created with natural pigments on cotton canvas.",
-      zh: "精美的唐卡畫作描繪了多臂觀世音菩薩，象徵慈悲與憐憫，使用天然顏料在棉布畫布上創作而成。"
-    }
-  },
-  {
     id: "2",
     image: "/images/artifacts/artifact2.png",
     name: {
