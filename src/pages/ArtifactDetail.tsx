@@ -217,6 +217,34 @@ const artifacts = [
     moreImages: [
       "/images/artifacts/artifact10.png"
     ]
+  },
+  {
+    id: '11',
+    image: "/images/artifacts/artifact11.png",
+    name: "Holy Tara",
+    name_zh: "聖救度佛母",
+    origin: "Tibet",
+    origin_zh: "西藏",
+    period: "Contemporary",
+    period_zh: "當代",
+    price: "",
+    description: "Tiantie Twenty-Tara Buddha Shrine\n• Main deity: Holy Tara (Green Tara) – Located in the center, she is the incarnation of Avalokitesvara, symbolizing compassion and swift relief from suffering.\n• Surrounded by: twenty incarnations of Taras – collectively known as the 'Twenty-one Taras', each representing a different rescue power, such as removing obstacles, pacifying disasters, increasing benefits, and bringing about appeasement.",
+    description_zh: "天鐵二十一度母佛龕\n• 主尊：聖救度佛母（綠度母）——位於中央，是觀音菩薩的化身，象徵慈悲與迅速救苦。\n• 周圍環繞：二十一尊度母化身——合稱'二十一度母'，每一尊代表不同的救度力量，如消除障礙、息災、增益、調和等。",
+    detailedDescription: "This Buddha shrine is made of Tiantie (also known as meteorite iron), an extremely rare material. Tiantie, being from meteorites, is believed in Tibetan Buddhism to carry the blessing power of the 'heavenly realm', symbolizing a treasure bestowed from the heavens, full of spirituality and protective power. The surface is finely polished and engraved, displaying intricate patterns and divine forms. It uses the Tibetan repoussé technique, giving it a strong three-dimensional effect.",
+    detailedDescription_zh: "此佛龕由 天鐵（又稱隕鐵）製成，為極為稀有的材料。天鐵因來自隕石，藏密中認為其帶有「天界」加持力，象徵天降法寶，極具靈性與保護力。\n表面經過精緻打磨與雕刻，展現繁複細緻的花紋與神祇姿態。採用藏傳佛錘揲工藝，具有強烈的立體感。",
+    dimensions: "Approx. 25cm x 18cm",
+    dimensions_zh: "約25厘米 x 18厘米",
+    condition: "Excellent - as shown in photo",
+    condition_zh: "極佳 - 如照片所示",
+    provenance: "Private collection, Taiwan",
+    provenance_zh: "台灣私人收藏",
+    authentication: "",
+    authentication_zh: "",
+    shipping: "International shipping available. Professionally packed and fully insured.",
+    shipping_zh: "提供國際運送。專業包裝並全額保險。",
+    moreImages: [
+      "/images/artifacts/artifact11.png"
+    ]
   }
 ];
 

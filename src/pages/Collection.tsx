@@ -8,6 +8,18 @@ import { useLanguage } from '@/contexts/LanguageContext';
 // Sample artifacts data - in a real app this would come from an API
 const allArtifacts = [
   {
+    id: "11",
+    image: "/images/artifacts/artifact11.png",
+    name: { en: "Holy Tara", zh: "聖救度佛母" },
+    origin: { en: "Tibet", zh: "西藏" },
+    period: { en: "Contemporary", zh: "當代" },
+    description: {
+      en: "Tiantie Twenty-Tara Buddha Shrine\n• Main deity: Holy Tara (Green Tara) – Located in the center, she is the incarnation of Avalokitesvara, symbolizing compassion and swift relief from suffering.\n• Surrounded by: twenty incarnations of Taras – collectively known as the \"Twenty-one Taras\", each representing a different rescue power, such as removing obstacles, pacifying disasters, increasing benefits, and bringing about appeasement.",
+      zh: "天鐵二十一度母佛龕\n• 主尊：聖救度佛母（綠度母）——位於中央，是觀音菩薩的化身，象徵慈悲與迅速救苦。\n• 周圍環繞：二十一尊度母化身——合稱\"二十一度母\"，每一尊代表不同的救度力量，如消除障礙、息災、增益、調和等。"
+    },
+    category: "Buddhist Artifacts"
+  },
+  {
     id: "10",
     image: "/images/artifacts/artifact10.png",
     name: { en: "Amitayus Buddha", zh: "無量壽佛" },
