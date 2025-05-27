@@ -10,19 +10,25 @@ const allArtifacts = [
   {
     id: "10",
     image: "/images/artifacts/artifact10.png",
-    name: "Amitayus Buddha",
-    origin: "Tibet",
-    period: "18th Century",
-    description: "The Buddha of Longevity (Amitayus), also known as the Buddha of Infinite Life (Amitayus Buddha), is the manifestation of 'Amitabha' or the Buddha of Infinite Light. He is the main deity in the west among the 'Five Buddhas' of the Lotus Division. In the Garbha-dhatu realm, it is called 'Amitābha', and in the Vajra-dhatu realm, it is called 'Amitabha'. 'Amitābha' means innumerable and boundless. It is another form of the Dharmakāya Amitabha Buddha in the form of the Sambhogakaya Buddha.",
+    name: { en: "Amitayus Buddha", zh: "無量壽佛" },
+    origin: { en: "Tibet", zh: "西藏" },
+    period: { en: "18th Century", zh: "18世紀" },
+    description: {
+      en: "The Buddha of Longevity (Amitayus), also known as the Buddha of Infinite Life (Amitayus Buddha), is the manifestation of 'Amitabha' or the Buddha of Infinite Light. He is the main deity in the west among the 'Five Buddhas' of the Lotus Division. In the Garbha-dhatu realm, it is called 'Amitābha', and in the Vajra-dhatu realm, it is called 'Amitabha'. 'Amitābha' means innumerable and boundless. It is another form of the Dharmakāya Amitabha Buddha in the form of the Sambhogakaya Buddha.",
+      zh: '無量壽佛，又稱無量壽如來，是「阿彌陀佛」或無量光佛的化現。他是蓮華部五方佛中西方的主尊。在胎藏界稱為「阿彌陀佛」，在金剛界稱為「阿彌陀佛」。「阿彌陀」意為無量、無邊，是法身阿彌陀佛以報身佛形態出現的另一種形象。'
+    },
     category: "Buddhist Artifacts"
   },
   {
     id: "9",
     image: "/images/artifacts/artifact9.png",
-    name: "Guru Padmasambhava",
-    origin: "Tibet",
-    period: "18th Century",
-    description: "Guru Padmasambhava, also known as Guru Rinpoche, is an important founder of Tibetan Buddhism and an important leader of Tibetan Tantric Buddhism. He is known for building the first monastery in Tibet and translating important exoteric and esoteric texts into Tibetan, laying the foundation for the development of Tibetan Buddhism.",
+    name: { en: "Guru Padmasambhava", zh: "蓮花生大師" },
+    origin: { en: "Tibet", zh: "西藏" },
+    period: { en: "18th Century", zh: "18世紀" },
+    description: {
+      en: "Guru Padmasambhava, also known as Guru Rinpoche, is an important founder of Tibetan Buddhism and an important leader of Tibetan Tantric Buddhism. He is known for building the first monastery in Tibet and translating important exoteric and esoteric texts into Tibetan, laying the foundation for the development of Tibetan Buddhism.",
+      zh: "蓮花生大師，又稱蓮師，是藏傳佛教的重要創始人，也是藏傳密宗的重要領袖。他以在西藏建立第一座寺院並將重要的顯密經典譯為藏文而聞名，為藏傳佛教的發展奠定了基礎。"
+    },
     category: "Buddhist Artifacts"
   },
   {
@@ -108,7 +114,7 @@ const Collection = () => {
   const [selectedOrigin, setSelectedOrigin] = useState('All Origins');
   const [selectedCategory, setSelectedCategory] = useState('All Categories');
   const [showFilters, setShowFilters] = useState(false);
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -121,14 +127,14 @@ const Collection = () => {
     if (searchTerm) {
       results = results.filter(
         item => 
-          item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          item.description.toLowerCase().includes(searchTerm.toLowerCase())
+          item.name[language].toLowerCase().includes(searchTerm.toLowerCase()) ||
+          item.description[language].toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
     
     // Apply origin filter
     if (selectedOrigin !== 'All Origins') {
-      results = results.filter(item => item.origin === selectedOrigin);
+      results = results.filter(item => item.origin[language] === selectedOrigin);
     }
     
     // Apply category filter
@@ -137,7 +143,7 @@ const Collection = () => {
     }
     
     setFilteredArtifacts(results);
-  }, [searchTerm, selectedOrigin, selectedCategory]);
+  }, [searchTerm, selectedOrigin, selectedCategory, language]);
 
   // Helper function to safely get translations
   const getTranslation = (key: string) => {
@@ -226,10 +232,10 @@ const Collection = () => {
                     key={artifact.id}
                     id={artifact.id}
                     image={artifact.image}
-                    name={artifact.name}
-                    origin={artifact.origin}
-                    period={artifact.period}
-                    description={artifact.description}
+                    name={artifact.name[language]}
+                    origin={artifact.origin[language]}
+                    period={artifact.period[language]}
+                    description={artifact.description[language]}
                   />
                 ))}
               </div>
