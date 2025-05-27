@@ -8,6 +8,15 @@ import { useLanguage } from '@/contexts/LanguageContext';
 // Sample artifacts data - in a real app this would come from an API
 const allArtifacts = [
   {
+    id: "10",
+    image: "/images/artifacts/artifact10.png",
+    name: "Amitayus Buddha",
+    origin: "Tibet",
+    period: "18th Century",
+    description: "The Buddha of Longevity (Amitayus), also known as the Buddha of Infinite Life (Amitayus Buddha), is the manifestation of 'Amitabha' or the Buddha of Infinite Light. He is the main deity in the west among the 'Five Buddhas' of the Lotus Division. In the Garbha-dhatu realm, it is called 'Amitābha', and in the Vajra-dhatu realm, it is called 'Amitabha'. 'Amitābha' means innumerable and boundless. It is another form of the Dharmakāya Amitabha Buddha in the form of the Sambhogakaya Buddha.",
+    category: "Buddhist Artifacts"
+  },
+  {
     id: "9",
     image: "/images/artifacts/artifact9.png",
     name: "Guru Padmasambhava",
