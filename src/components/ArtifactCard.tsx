@@ -85,7 +85,7 @@ const ArtifactCard = ({
           </div>
           
           <p className="text-sm text-white/70 mb-3">{period}</p>
-          <p className="text-sm text-white/80 flex-grow">{description}</p>
+          <p className="text-sm text-white/80">{description}</p>
           </div>
         </div>
       </Link>
