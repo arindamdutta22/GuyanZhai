@@ -69,6 +69,9 @@ const ArtifactCard = ({
             className="w-full h-full object-cover object-center transition-transform duration-700 image-lazy-load group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <h3 className="font-display text-xl font-medium text-white text-center px-4">{name}</h3>
+          </div>
         </div>
         
         <div className="p-5 flex flex-col flex-grow text-white">
