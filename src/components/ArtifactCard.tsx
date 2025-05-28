@@ -72,6 +72,14 @@ const ArtifactCard = ({
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <h3 className="font-display text-xl font-medium text-white text-center px-4">{name}</h3>
           </div>
+          {id === '4' && (
+            <div className="absolute inset-x-0 bottom-0 bg-black/70 text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm">
+              <p className="uppercase text-tibet-amber text-xs mb-1">{origin}</p>
+              <h3 className="font-display text-lg font-medium mb-1 leading-tight">{name}</h3>
+              <p className="text-white/70 mb-2">{period}</p>
+              <p className="text-white/90 leading-relaxed">{description}</p>
+            </div>
+          )}
         </div>
         
         <div className="p-5 flex flex-col flex-grow text-white">
