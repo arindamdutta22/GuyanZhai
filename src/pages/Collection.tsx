@@ -72,12 +72,12 @@ const allArtifacts = [
   {
     id: "5",
     image: "/images/artifacts/artifact5.png",
-    name: { en: "Ganesha", zh: "銀鎏金象頭神雕像" },
+    name: { en: "Ganesha", zh: "象鼻財神" },
     origin: { en: "Bhutan", zh: "不丹" },
     period: { en: "Late 19th Century", zh: "19世紀末" },
     description: {
       en: "The elephant-nosed god of wealth (Tibetan: རྡོ་རྗེ་རྒྱལ་པོ་དུང་དཀར་, transliterated: Dunga God of Wealth, or 'Elephant-Headed God of Wealth') in Tibetan Buddhism is a guardian deity with an elephant head and a human body. He is mainly in charge of wealth and blessings and is deeply worshipped by Tibetans and Tantric practitioners.",
-      zh: "象鼻財神（藏文：རྡོ་རྗེ་རྒྱལ་པོ་དུང་དཀར་，音譯：Dunga 財神，或稱「象頭財神」）在藏傳佛教中是具有象頭人身的守護神，主要掌管財富與福報，深受藏族與密宗行者的崇拜。"
+      zh: "形象猶如印度教中的象頭神「迦尼薩（Ganesha）」，但在藏傳佛教中轉化為一位密宗財神與護法。"
     },
     category: "Ritual Objects"
   },
