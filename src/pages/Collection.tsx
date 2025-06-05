@@ -85,7 +85,7 @@ const allArtifacts = [
     id: "6",
     image: "/images/artifacts/artifact6.png",
     name: { en: "Exquisite Craft [ twist & couching stitches ]", zh: "精湛的刺繡 之［ 絞繡 ]" },
-    origin: { en: "Taiwan", zh: "台灣" },
+    origin: { en: "China", zh: "中國" },
     period: { en: "Mid 20th Century", zh: "20世紀中期" },
     description: {
       en: "The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.",
