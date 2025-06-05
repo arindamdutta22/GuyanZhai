@@ -72,10 +72,13 @@ const allArtifacts = [
   {
     id: "5",
     image: "/images/artifacts/artifact5.png",
-    name: "Bronze Ganesha Statue",
-    origin: "Nepal",
-    period: "Late 19th Century",
-    description: "A detailed bronze statue of Ganesha, the elephant-headed Hindu deity. The figure sits in a royal posture with multiple arms holding various attributes, including a bowl of sweets and a broken tusk. The statue's intricate detailing and balanced proportions exemplify the Nepalese tradition of metal sculpture, while the deity's benevolent expression conveys wisdom and prosperity.",
+    name: { en: "Ganesha", zh: "銀鎏金象頭神雕像" },
+    origin: { en: "Bhutan", zh: "不丹" },
+    period: { en: "Late 19th Century", zh: "19世紀末" },
+    description: {
+      en: "The elephant-nosed god of wealth (Tibetan: རྡོ་རྗེ་རྒྱལ་པོ་དུང་དཀར་, transliterated: Dunga God of Wealth, or 'Elephant-Headed God of Wealth') in Tibetan Buddhism is a guardian deity with an elephant head and a human body. He is mainly in charge of wealth and blessings and is deeply worshipped by Tibetans and Tantric practitioners.",
+      zh: "象鼻財神（藏文：རྡོ་རྗེ་རྒྱལ་པོ་དུང་དཀར་，音譯：Dunga 財神，或稱「象頭財神」）在藏傳佛教中是具有象頭人身的守護神，主要掌管財富與福報，深受藏族與密宗行者的崇拜。"
+    },
     category: "Ritual Objects"
   },
   {
