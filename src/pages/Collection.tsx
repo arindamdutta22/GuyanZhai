@@ -59,10 +59,14 @@ const allArtifacts = [
   {
     id: "4",
     image: "/images/artifacts/artifact4.png",
-    name: "Green Tara with Turquoise",
-    origin: "Nepal",
-    period: "19th Century",
-    description: "An elegant bronze statue of Green Tara, the female bodhisattva of compassion. The figure sits in a relaxed pose with one leg extended, adorned with traditional jewelry and a crown, featuring turquoise inlays. The statue's graceful posture and detailed ornamentation reflect the Nepalese style of Buddhist art, while the turquoise accents add a distinctive Himalayan touch.",
+    name: { en: "Sita Tara", zh: "白度母" },
+    origin: { en: "Tibet", zh: "西藏" },
+    period: { en: "19th Century", zh: "19世紀" },
+    description: {
+      en: "White Tara (Tibetan: མོ་དཀར་་, Sanskrit: Sita Tārā) is one of the most important female deities in Tibetan Buddhism, representing \"longevity, purity, compassion\" and \"quick liberation\".",
+      zh: "白度母（藏文：མོ་དཀར་་，梵文：Sita Tārā）是藏傳佛教中最重要的女性神祇之一，代表「長壽、純潔、慈悲」及「迅速解脫」。"
+    },
+    dimensions: { en: "approx. 21cm", zh: "約21厘米" },
     category: "Buddhist Artifacts"
   },
   {
@@ -242,10 +246,10 @@ const Collection = () => {
                     key={artifact.id}
                     id={artifact.id}
                     image={artifact.image}
-                    name={artifact.name[language]}
-                    origin={artifact.origin[language]}
-                    period={artifact.period[language]}
-                    description={artifact.description[language]}
+                    name={typeof artifact.name === 'object' ? artifact.name[language] : artifact.name}
+                    origin={typeof artifact.origin === 'object' ? artifact.origin[language] : artifact.origin}
+                    period={typeof artifact.period === 'object' ? artifact.period[language] : artifact.period}
+                    description={typeof artifact.description === 'object' ? artifact.description[language] : artifact.description}
                   />
                 ))}
               </div>
