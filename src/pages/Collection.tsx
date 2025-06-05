@@ -84,11 +84,17 @@ const allArtifacts = [
   {
     id: "6",
     image: "/images/artifacts/artifact6.png",
-    name: { en: "Exquisite Craft [ twist & couching stitches ]", zh: "Exquisite Craft [ twist & couching stitches ]" },
+    name: { en: "Exquisite Craft [ twist & couching stitches ]", zh: "精湛的刺繡 之［ 絞繡 ]" },
     origin: { en: "Taiwan", zh: "台灣" },
     period: { en: "Mid 20th Century", zh: "20世紀中期" },
-    description: { en: "The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.", zh: "The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill." },
-    detailedDescription: { en: "This is another work of great labor. First, one has to twist, twine, and wring several fine silk threads together and then secure the twisted thread on the cloth in a dense couch embroidery. The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.", zh: "This is another work of great labor. First, one has to twist, twine, and wring several fine silk threads together and then secure the twisted thread on the cloth in a dense couch embroidery. The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill." },
+    description: {
+      en: "The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.",
+      zh: "絞繡，是苗繡中運用較多的技法之一。其做法是先將一根棉線、麻線、絲線或馬尾鬃，用細絲線纏絞、包裹起來，再釘縫在布面上，譜成極為精細、綺麗的圖案。\n以「絞繡」為創作主要構圖而聞名的，包括貴州織金、大方及普定一帶的苗族。"
+    },
+    detailedDescription: {
+      en: "This is another work of great labor. First, one has to twist, twine, and wring several fine silk threads together and then secure the twisted thread on the cloth in a dense couch embroidery. The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.",
+      zh: "絞繡，是苗繡中運用較多的技法之一。其做法是先將一根棉線、麻線、絲線或馬尾鬃，用細絲線纏絞、包裹起來，再釘縫在布面上，譜成極為精細、綺麗的圖案。\n以「絞繡」為創作主要構圖而聞名的，包括貴州織金、大方及普定一帶的苗族。"
+    },
     category: "Indigenous Art"
   },
   {
