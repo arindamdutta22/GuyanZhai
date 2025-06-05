@@ -69,16 +69,6 @@ const Footer: React.FC = () => {
                   {t('about')}
                 </Link>
               </li>
-              <li>
-                <a href="#" className="text-white/80 hover:text-tibet-amber transition-colors">
-                  {t('conservation')}
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white/80 hover:text-tibet-amber transition-colors">
-                  {t('shipping_returns')}
-                </a>
-              </li>
             </ul>
           </div>
           
