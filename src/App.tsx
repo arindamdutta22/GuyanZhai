@@ -59,22 +59,19 @@ const App = () => (
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Contact us on LINE"
-              className="fixed z-50 bottom-6 right-6 bg-white rounded-full shadow-lg p-3 hover:bg-tibet-amber transition-colors group"
+              className="fixed z-50 bottom-6 right-6 bg-transparent rounded-full shadow-lg p-0 hover:scale-110 transition-transform group"
               style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.15)' }}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 40 40"
-                width="40"
-                height="40"
+                viewBox="0 0 512 512"
+                width="56"
+                height="56"
                 className="block"
               >
-                <circle cx="20" cy="20" r="20" fill="#06C755" />
-                <path
-                  d="M20 10c-6.075 0-11 3.675-11 8.2 0 2.6 1.95 4.9 5.025 6.425-.15.525-.975 3.425-1.05 3.75 0 0-.025.15.075.2.1.05.225.025.225.025.3-.05 3.45-2.275 4.025-2.65.9.125 1.85.2 2.7.2 6.075 0 11-3.675 11-8.2S26.075 10 20 10z"
-                  fill="#fff"
-                />
-                <text x="50%" y="60%" textAnchor="middle" fontSize="10" fill="#06C755" fontWeight="bold" dy=".3em"></text>
+                <rect width="512" height="512" rx="110" fill="#06C755" />
+                <path d="M256 120c-88.4 0-160 54.1-160 120 0 38.1 28.6 71.5 72.1 94.1-2.2 8.1-14.2 52.7-15.3 57.7 0 0-.4 2.3 1.2 3.1 1.6.8 3.6.4 3.6.4 4.8-.8 55.2-36.4 64.4-42.4 10.7 1.5 21.9 2.3 33 2.3 88.4 0 160-54.1 160-120S344.4 120 256 120z" fill="#fff"/>
+                <text x="50%" y="60%" textAnchor="middle" fontSize="80" fill="#06C755" fontWeight="bold" dy=".3em">LINE</text>
               </svg>
             </a>
             {/* End Floating LINE icon */}
