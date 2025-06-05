@@ -53,6 +53,31 @@ const App = () => (
               <Route path="/home" element={<Navigate to="/" replace />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
+            {/* Floating LINE icon */}
+            <a
+              href="https://line.me/R/ti/p/@219pivft"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Contact us on LINE"
+              className="fixed z-50 bottom-6 right-6 bg-white rounded-full shadow-lg p-3 hover:bg-tibet-amber transition-colors group"
+              style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.15)' }}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 40 40"
+                width="40"
+                height="40"
+                className="block"
+              >
+                <circle cx="20" cy="20" r="20" fill="#06C755" />
+                <path
+                  d="M20 10c-6.075 0-11 3.675-11 8.2 0 2.6 1.95 4.9 5.025 6.425-.15.525-.975 3.425-1.05 3.75 0 0-.025.15.075.2.1.05.225.025.225.025.3-.05 3.45-2.275 4.025-2.65.9.125 1.85.2 2.7.2 6.075 0 11-3.675 11-8.2S26.075 10 20 10z"
+                  fill="#fff"
+                />
+                <text x="50%" y="60%" textAnchor="middle" fontSize="10" fill="#06C755" fontWeight="bold" dy=".3em"></text>
+              </svg>
+            </a>
+            {/* End Floating LINE icon */}
           </BrowserRouter>
         </LanguageProvider>
       </TooltipProvider>
