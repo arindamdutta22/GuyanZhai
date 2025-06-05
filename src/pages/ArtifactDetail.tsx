@@ -101,8 +101,8 @@ const artifacts = [
     image: "/images/artifacts/artifact5.png",
     name: "Ganesha",
     name_zh: "銀鎏金象頭神雕像",
-    origin: "Nepal",
-    origin_zh: "尼泊爾",
+    origin: "Bhutan",
+    origin_zh: "不丹",
     period: "Late 19th Century",
     period_zh: "19世紀末",
     price: "NT$ 186,000",
@@ -114,16 +114,12 @@ const artifacts = [
     dimensions_zh: "25厘米 × 18厘米 × 15厘米 (10\" × 7\" × 6\")",
     condition: "Very good - minor tarnishing consistent with age, all stones intact",
     condition_zh: "非常好 - 與年代相符的輕微失去光澤，所有石頭完好無損",
-    provenance: "Private collection, Kathmandu. Previously housed in a family shrine in the Kathmandu Valley.",
-    provenance_zh: "加德滿都私人收藏。 之前供奉在加德滿都谷的一個家庭神殿中。",
-    authentication: "Certificate of authentication from the Nepal Handicraft Association",
-    authentication_zh: "尼泊爾手工藝品協會的真品證書",
+    provenance: "Private collection",
+    provenance_zh: "私人收藏",
     shipping: "International shipping available. Professionally packed and fully insured.",
     shipping_zh: "提供國際運輸。 專業包裝並已全額投保。",
     moreImages: [
-      "/images/artifacts/artifact5.png",
-      "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1580397581415-4c07a1361db9?auto=format&fit=crop&w=1000&q=80"
+      "/images/artifacts/artifact5.png"
     ]
   },
   {
