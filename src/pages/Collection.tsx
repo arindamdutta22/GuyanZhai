@@ -84,10 +84,11 @@ const allArtifacts = [
   {
     id: "6",
     image: "/images/artifacts/artifact6.png",
-    name: "Tribal Floral Embroidery",
-    origin: "Taiwan",
-    period: "Mid 20th Century",
-    description: "A vibrant textile featuring traditional tribal embroidery with floral motifs. The piece showcases intricate patterns in red, yellow, and white threads, creating a harmonious geometric design with cultural significance. The embroidery techniques used reflect the indigenous craftsmanship of Taiwan's native tribes, with each stitch carrying symbolic meaning and cultural heritage.",
+    name: { en: "Exquisite Craft [ twist & couching stitches ]", zh: "Exquisite Craft [ twist & couching stitches ]" },
+    origin: { en: "Taiwan", zh: "台灣" },
+    period: { en: "Mid 20th Century", zh: "20世紀中期" },
+    description: { en: "The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.", zh: "The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill." },
+    detailedDescription: { en: "This is another work of great labor. First, one has to twist, twine, and wring several fine silk threads together and then secure the twisted thread on the cloth in a dense couch embroidery. The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.", zh: "This is another work of great labor. First, one has to twist, twine, and wring several fine silk threads together and then secure the twisted thread on the cloth in a dense couch embroidery. The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill." },
     category: "Indigenous Art"
   },
   {

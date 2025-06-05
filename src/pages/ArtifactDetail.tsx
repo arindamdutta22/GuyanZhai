@@ -123,6 +123,34 @@ const artifacts = [
     ]
   },
   {
+    id: '6',
+    image: "/images/artifacts/artifact6.png",
+    name: "Exquisite Craft [ twist & couching stitches ]",
+    name_zh: "Exquisite Craft [ twist & couching stitches ]",
+    origin: "Taiwan",
+    origin_zh: "台灣",
+    period: "Mid 20th Century",
+    period_zh: "20世紀中期",
+    price: "",
+    description: "The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.",
+    description_zh: "The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.",
+    detailedDescription: "This is another work of great labor. First, one has to twist, twine, and wring several fine silk threads together and then secure the twisted thread on the cloth in a dense couch embroidery. The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.",
+    detailedDescription_zh: "This is another work of great labor. First, one has to twist, twine, and wring several fine silk threads together and then secure the twisted thread on the cloth in a dense couch embroidery. The Miao in Zi-jing in the northwestern region of Gui-zhou province are famous for this refined skill.",
+    dimensions: "",
+    dimensions_zh: "",
+    condition: "",
+    condition_zh: "",
+    provenance: "",
+    provenance_zh: "",
+    authentication: "",
+    authentication_zh: "",
+    shipping: "",
+    shipping_zh: "",
+    moreImages: [
+      "/images/artifacts/artifact6.png"
+    ]
+  },
+  {
     id: '9',
     image: "/images/artifacts/artifact9.png",
     name: "Guru Padmasambhava",
