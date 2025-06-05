@@ -93,10 +93,10 @@ const allArtifacts = [
   {
     id: "7",
     image: "/images/artifacts/artifact7.png",
-    name: "Black Geometric Textile",
-    origin: "Taiwan",
-    period: "Early 20th Century",
-    description: "A striking black textile adorned with geometric patterns in contrasting colors. The design features traditional symbols and motifs in pink, red, and turquoise, with precise embroidery work and decorative borders. The textile's bold color combinations and precise geometric patterns demonstrate the sophisticated textile traditions of Taiwan's indigenous cultures.",
+    name: { en: "Cross-stitch headscarves of ethnic minorities in the southwest", zh: "西南少數民族十字繡頭巾" },
+    origin: { en: "China", zh: "中國" },
+    period: { en: "Early 20th Century", zh: "20世紀初" },
+    description: { en: "", zh: "" },
     category: "Indigenous Art"
   },
   {

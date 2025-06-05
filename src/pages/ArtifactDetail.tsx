@@ -205,6 +205,34 @@ const artifacts = [
     moreImages: [
       "/images/artifacts/artifact11.png"
     ]
+  },
+  {
+    id: '7',
+    image: "/images/artifacts/artifact7.png",
+    name: "Cross-stitch headscarves of ethnic minorities in the southwest",
+    name_zh: "西南少數民族十字繡頭巾",
+    origin: "China",
+    origin_zh: "中國",
+    period: "Early 20th Century",
+    period_zh: "20世紀初",
+    price: "",
+    description: "",
+    description_zh: "",
+    detailedDescription: "",
+    detailedDescription_zh: "",
+    dimensions: "",
+    dimensions_zh: "",
+    condition: "",
+    condition_zh: "",
+    provenance: "",
+    provenance_zh: "",
+    authentication: "",
+    authentication_zh: "",
+    shipping: "",
+    shipping_zh: "",
+    moreImages: [
+      "/images/artifacts/artifact7.png"
+    ]
   }
 ];
 
