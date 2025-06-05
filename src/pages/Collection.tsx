@@ -109,10 +109,17 @@ const allArtifacts = [
   {
     id: "8",
     image: "/images/artifacts/artifact8.png",
-    name: "Ceremonial Embroidered Panel",
-    origin: "Taiwan",
-    period: "Mid 20th Century",
-    description: "A ceremonial textile panel with a central medallion design. The piece features intricate embroidery in purple, green, and pink, with traditional patterns and symbols arranged in a balanced composition. The panel's design elements and color scheme reflect the ceremonial significance of textiles in Taiwanese indigenous culture, serving both decorative and ritual purposes.",
+    name: { en: "Baby Carriers - Flowers of the Banyan tree", zh: "侗族榕樹花揹兒帶" },
+    origin: { en: "China", zh: "中國" },
+    period: { en: "Mid 20th Century", zh: "20世紀中期" },
+    description: {
+      en: "a child was sick and frail, his mother would bring him to a dragon tree to pray for good health.",
+      zh: "侗族人凡有體弱多病、難以養活的孩子，都會將孩子帶到榕樹下，拜榕樹為「父母」，好為孩子消災解厄。"
+    },
+    detailedDescription: {
+      en: "Regarding the banyan flower as a symbol of life is particular to minorities living in the Li-ping County in Gui-zhou Province and San-jiang County in Guang-xi Province. Dong people believe that when the banyan flowers are in full bloom, the tree grows into the moon and brings light and luster to the moon.",
+      zh: "貴州黎平龍額鄉，以及廣西三江地區的侗族，則對「榕樹花」有特的信仰，甚至形成當地特有的「榕樹花」紋飾。這兩地的侗族深信「榕樹長在月亮中，月亮裡沒有榕樹，就沒有光亮」的傳說，因而將榕樹視為神樹，侗族的母親們也會在揹兒帶的蓋片上，繡上「榕樹花」，以守護孩子順利、健康地成長。"
+    },
     category: "Tibetan Textiles"
   },
   {
