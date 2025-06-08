@@ -62,17 +62,14 @@ const App = () => (
               className="fixed z-50 bottom-6 right-6 bg-transparent rounded-full shadow-lg p-0 hover:scale-110 transition-transform group"
               style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.15)' }}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                width="56"
-                height="56"
+              <img
+                src="/line-logo.png"
+                alt="Contact us on LINE"
+                width={56}
+                height={56}
                 className="block"
-              >
-                <rect width="512" height="512" rx="110" fill="#06C755" />
-                <path d="M256 120c-88.4 0-160 54.1-160 120 0 38.1 28.6 71.5 72.1 94.1-2.2 8.1-14.2 52.7-15.3 57.7 0 0-.4 2.3 1.2 3.1 1.6.8 3.6.4 3.6.4 4.8-.8 55.2-36.4 64.4-42.4 10.7 1.5 21.9 2.3 33 2.3 88.4 0 160-54.1 160-120S344.4 120 256 120z" fill="#fff"/>
-                <text x="50%" y="60%" textAnchor="middle" fontSize="80" fill="#06C755" fontWeight="bold" dy=".3em">LINE</text>
-              </svg>
+                style={{ borderRadius: '20%' }}
+              />
             </a>
             {/* End Floating LINE icon */}
           </BrowserRouter>
