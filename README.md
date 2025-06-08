@@ -1,7 +1,7 @@
 # GuyanZhai
 
 A website for the Tibetan store in Tamsui, Taiwan selling artifacts.
-https://guyanzhai.vercel.app
+https://www.guyanzhai-tamsui.com
 
 ## Technologies Used
 
